@@ -14,6 +14,9 @@ A Burp extension to detect and exploit versions of Telerik Web UI vulnerable to 
 ### Notes
 1. This extension requires Python's **requests** module. Just run `pip install requests` to install it.
 2. The text area under Telewreck tab doesn't function as a console. So, `stoud` and `stderr` outputs cannot be seen there. However, you can view them under the **Output** and **Errors** sections of the **Extender** tab.
+3. Before running another bruteforce, cancel the current process first by clicking the **Cancel** button.
+4. If the key can't be bruteforced, then probably the key has been set up securely and/or the application is not using a default installation of Telerik.
+5. If the key can't be bruteforced and/or there are some issues, it's recommended to fall back to the original exploit tool. 
 
 ### To Do
 1. Locate Telerik.Web.UI.DialogHandler.aspx
