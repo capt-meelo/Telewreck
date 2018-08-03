@@ -20,6 +20,7 @@ A Burp extension to detect and exploit versions of Telerik Web UI vulnerable to 
 
 <br>
 <br>
+
 _**PS:** This is my first time developing a tool so apologies for the poor coding style. Feel free to contribute and improve the development of this tool._
 
 _**Disclaimer:** This tool is created for educational purposes only._
