@@ -6,7 +6,7 @@ A Burp extension to detect and exploit versions of Telerik Web UI vulnerable to 
 2. Bruteforce the key and discover the "Document Manager" link just like the original exploit tool.
 
 ### Screenshots
-![Passive Scan](/images/01.png){:height="70%" width="70%"}
+![Passive Scan](/images/01.png)
 
 ![Telewreck Tab](/images/02.png)
 
