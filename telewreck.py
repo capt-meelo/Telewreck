@@ -1,6 +1,6 @@
 """
 Name:		Telewreck
-Version:	1.0
+Version:1.0
 Author:		Capt. Meelo (@CaptMeelo) 
 Description:	Telewreck is a Burp Suite extension used to detect and exploit instances of Telerik Web UI vulnerable to CVE-2017-9248.
 		This is based on the work of Paul Taylor (@bao7uo) who provided the original PoC (https://github.com/bao7uo/dp_crypto). 
