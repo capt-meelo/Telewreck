@@ -1,7 +1,7 @@
 # Telewreck
+[![Version](https://img.shields.io/badge/Version-v1.0-blue.svg)]()
 [![Language](https://img.shields.io/badge/Language-Jython-orange.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-red.svg)](https://github.com/capt-meelo/Telewreck/blob/master/LICENSE)
-[![Version](https://img.shields.io/badge/Version-v1.0-blue.svg)]()
 
 
 A Burp extension to detect and exploit versions of Telerik Web UI vulnerable to [CVE-2017-9248](https://www.telerik.com/support/kb/aspnet-ajax/details/cryptographic-weakness). This extension is based on the original exploit tool written by Paul Taylor ([@bao7uo](https://twitter.com/bao7uo)) which is available at [https://github.com/bao7uo/dp_crypto](https://github.com/bao7uo/dp_crypto). Credits and big thanks to him. 
