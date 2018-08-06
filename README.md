@@ -1,6 +1,6 @@
 # Telewreck
-[![Version](https://img.shields.io/badge/Version-v1.0-blue.svg)]()
-[![Language](https://img.shields.io/badge/Language-Jython-orange.svg)]()
+[![Version](https://img.shields.io/badge/Version-v1.0-orange.svg)]()
+[![Language](https://img.shields.io/badge/Language-Jython-lightgrey.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-red.svg)](https://github.com/capt-meelo/Telewreck/blob/master/LICENSE)
 
 
