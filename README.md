@@ -9,8 +9,8 @@ A Burp extension to detect and exploit versions of Telerik Web UI vulnerable to 
 A related blog post on how to exploit web applications via Telerik Web UI can also be found [here](https://capt-meelo.github.io/pentest/2018/08/03/pwning-with-telerik.html).
 
 ### Features
-1. Detect vulnerable versions of Telerik Web UI during passive scans.
-2. Bruteforce the key and discover the "Document Manager" link just like the original exploit tool.
+* Detect vulnerable versions of Telerik Web UI during passive scans.
+* Bruteforce the key and discover the "Document Manager" link just like the original exploit tool.
 
 ### Screenshots
 ![Passive Scan](/images/01.png)
