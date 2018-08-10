@@ -12,10 +12,23 @@ A related blog post on how to exploit web applications via Telerik Web UI can al
 * Detect vulnerable versions of Telerik Web UI during passive scans.
 * Bruteforce the key and discover the "Document Manager" link just like the original exploit tool.
 
+
 ### Screenshots
 ![Passive Scan](/images/01.png)
 
 ![Telewreck Tab](/images/02.png)
+
+
+### Installation
+
+1. Download [telewreck.py](https://raw.githubusercontent.com/capt-meelo/Telewreck/master/telewreck.py) to your machine.
+2. Install Python's **requests** module using `sudo pip install requests`.
+2. On your Burp, go to _**Extender > Options**_ tab. Then under the **Python Environment** section, locate your **jython-standalone-2.7.0.jar** file (1) and the directory where Python's requests module is located (2).
+![Burp Tab](/images/03.png)
+3. Go to _**Extender > Extensions**_ tab, then click on the _**Add**_ button. On the new window, browse the location of **telewreck.py** and click the _**Next**_ button.
+![Load Telewreck](/images/04.png)
+4. If there's any error, the **Telewreck** tab would appear in your Burp. 
+![Load Success](/images/05.png)
 
 
 ### Notes
@@ -24,6 +37,7 @@ A related blog post on how to exploit web applications via Telerik Web UI can al
 3. Before running another bruteforce, cancel the current process first by clicking the **Cancel** button.
 4. If the key can't be bruteforced, then probably the key has been set up securely and/or the application is not using a default installation of Telerik.
 5. If the key can't be bruteforced and/or there are some issues, it's recommended to fall back to the original exploit tool. 
+
 
 ### To Do
 1. Locate Telerik.Web.UI.DialogHandler.aspx
